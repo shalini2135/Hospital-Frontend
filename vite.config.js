@@ -4,6 +4,8 @@ import tsconfigPaths from "vite-tsconfig-paths";
 import path from "path";
 
 export default defineConfig({
+  base: "/Hospital-Frontend/",   // 👈 ADD THIS LINE ⭐⭐⭐⭐⭐
+
   plugins: [
     react(),
     tsconfigPaths(),
